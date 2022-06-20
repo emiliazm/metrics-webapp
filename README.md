@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Metrics-webapp
 
-## Available Scripts
+> Hello!
+Metrics-webapp is a single webpage created with React and redux that allow users to get information. Re-creating this website you will see how to give some functionality to your sections and make your website more user-interactive.
 
-In the project directory, you can run:
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- HTML
+- CSS
+- JavaScript
+- React
+- Webpack
+- Linters
+- Jest
+- React Library
+- Redux
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+Setting up this project locally:
+#### On your terminal:
+- Clone this repository to your computer: git clone git@github.com:emiliazm/bookstore.git.
+- Open the project on your code editor: "cd bookstore" and "code ."
+- Install npm package: npm install.
+- Run website: npm run start.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Live Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Interactions
+  - Home page
+    - When the page loads, the webapp shows the list of categories that could be filtered out by some parameter, for example by the category name.
+    - Along with the category name, you will display some numeric values per category that come from the API.
+    - When the user clicks (or taps) on a category item, the application navigates to the details page.
 
-### `npm run eject`
+  - Details page
+    - In the details page, the webapp retrieves data from the API to show detailed data in the category.
+    - When the user clicks on the "Back" button (<), the user navigates to the home page.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Testing requirements
+  - Create unit tests for pure functions in your Redux code.
+  - Create integration tests for your application using the React Testing Library.
+    - You may need to mock the access to the API, so that your tests don't send actual requests.
+    - You may need to mock the connection to the Redux Store.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Technical requirements
+  - The project is a single-page application (SPA) built with React and Redux.
+  - The data retrieved from the API should be stored in the Redux store.
+  - You should filter the data that you retrieve from the API using a Filter stateless component.
+  - Every page (the main page and the pages for each item) should have a unique route within the SPA.
+  - The project should be deployed and accessible online (add a link to the online version of your app to your README file.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Authors
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+👤 **Emilia Zambrano**
 
-## Learn More
+- GitHub: [@emiliazm](https://github.com/emiliazm)
+- Twitter: [@emilia_zm](https://twitter.com/emilia_zm)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/emilia-zambrano-montero-aa30a611b/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🤝 Contributing
 
-### Code Splitting
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Feel free to check the [issues page](https://github.com/emiliazm/bookstore/issues).
 
-### Analyzing the Bundle Size
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Give a ⭐️ if you like this project!
 
-### Making a Progressive Web App
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Microverse README template.
 
-### Advanced Configuration
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./MIT.md) licensed.
