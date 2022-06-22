@@ -6,10 +6,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import store from './redux/configureStore';
 import { getContinents } from './redux/continents/continents';
-// import { getCountries } from './redux/countries/countries';
 
 store.dispatch(getContinents());
-// store.dispatch(getCountries('MX,AR'));
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
