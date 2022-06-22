@@ -23,22 +23,9 @@ export const getContinents = () => async (dispatch) => {
   dispatch({ type: GET_CONTINENTS, continents });
 };
 
-export const getContinent = () => async (dispatch) => {
-  const data = await getContinentByNameApi();
-  const continent = data.map((continent) => {
-    const {
-      continent: continentName,
-      cases,
-      countries,
-    } = continent;
-
-    return {
-      continentName,
-      cases,
-      countries,
-    };
-  });
-  dispatch({ type: GET_CONTINENT, continent });
+export const getContinent = (continentName) => async (dispatch) => {
+  const data = await getContinentByNameApi(continentName);
+  dispatch({ type: GET_CONTINENT, data });
 };
 
 export const reducerContinents = (state = initialState, action) => {
@@ -54,7 +41,7 @@ export const reducerContinents = (state = initialState, action) => {
 export const reducerContinent = (state = initialState, action) => {
   switch (action.type) {
     case GET_CONTINENT:
-      return action.continent;
+      return action.data;
 
     default:
       return state;
