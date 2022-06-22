@@ -9,7 +9,7 @@ const Continent = (props) => {
 
   return (
     <li>
-      <Link to="/details">
+      <Link to={`/${continentName}`}>
         <h2>{continentName}</h2>
         <p>{cases}</p>
       </Link>

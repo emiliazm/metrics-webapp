@@ -3,15 +3,15 @@ import {
 } from 'react-router-dom';
 import './App.css';
 import HomePage from './pages/HomePage';
-import DetailsPage from './pages/DetailsPage';
+import CountriesList from './components/CountriesList';
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/:continentName" element={<CountriesList />} />
         <Route path="*" element={<Navigate to="/" />} />
-        <Route path="/details" element={<DetailsPage />} />
       </Routes>
     </Router>
   );
