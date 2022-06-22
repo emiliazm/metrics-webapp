@@ -1,27 +1,37 @@
-// import { useState } from 'react';
 import { useSelector } from 'react-redux';
+import { useEffect, useState } from 'react';
 import Continent from './Continent';
-import Search from './Search';
 import NavContinents from './NavContinents';
 import './continents/Continent.css';
 
 function ContinentsList() {
   const continents = useSelector((state) => state.continents);
 
-  // const [value, setValue] = useState('');
+  const [value, setValue] = useState([]);
 
-  // const inputHandler = (e) => {
-  //   setValue(
-  //     continents.filter((cont) => cont.toLowerCase().includes(e.target.value)),
-  //   );
-  // };
+  useEffect(() => {
+    setValue(continents);
+  }, [continents]);
+
+  const inputHandler = (e) => {
+    const text = e.target.value.toLowerCase();
+    setValue(
+      continents.filter((cont) => cont.continentName.toLowerCase().includes(text)),
+    );
+  };
 
   return (
     <>
       <NavContinents />
-      <Search />
+      <div>
+        <input
+          type="text"
+          placeholder="Search by continent here"
+          onChange={inputHandler}
+        />
+      </div>
       <ul className="continents-ul">
-        {continents.map((continent) => (
+        {value?.map((continent) => (
           <Continent
             key={continent.continentName}
             continentName={continent.continentName}
