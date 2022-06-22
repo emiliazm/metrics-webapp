@@ -1,0 +1,35 @@
+.continents-ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  background-color: rgb(254, 83, 149);
+}
+
+.continents-li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 30vh;
+  text-align: center;
+  font-size: 0.8rem;
+  position: relative;
+}
+
+.continents-ul li { background: rgb(254, 83, 149); }
+.continents-ul li:nth-child(2) { background: rgb(208, 67, 120); }
+.continents-ul li:nth-child(3) { background: rgb(208, 67, 120); }
+.continents-ul li:nth-child(6) { background: rgb(208, 67, 120); }
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.circle-arrow {
+  color: white;
+  position: absolute;
+  top: 0.3rem;
+  right: 0.3rem;
+}

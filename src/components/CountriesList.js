@@ -4,6 +4,8 @@ import { useParams } from 'react-router-dom';
 import { getCountries } from '../redux/countries/countries';
 import { getContinent } from '../redux/continents/continents';
 import Country from './Country';
+import NavCountries from './NavCountries';
+import './Countries.css';
 
 function CountriesList() {
   const { continentName } = useParams();
@@ -25,8 +27,9 @@ function CountriesList() {
   const countriesData = useSelector((state) => state.countries);
 
   return (
-    <div>
-      <ul>
+    <>
+      <NavCountries />
+      <ul className="countries-container">
         {countriesData.map((country) => (
           <Country
             key={country.countryName}
@@ -37,7 +40,7 @@ function CountriesList() {
           />
         ))}
       </ul>
-    </div>
+    </>
   );
 }
 
