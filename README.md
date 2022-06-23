@@ -3,7 +3,8 @@
 # Metrics-webapp
 
 > Hello!
-Metrics-webapp is a single webpage created with React and redux that allow users to get information. Re-creating this website you will see how to give some functionality to your sections and make your website more user-interactive.
+Metrics-webapp is a single webpage created with React and Redux that allow users to get information about Covid cases by Continents. This webapp uses corona.lmao.ninja Api. Re-creating this website you will see how to give some functionality to your sections and make your website
+user-interactive.
 
 
 ## Built With
@@ -29,7 +30,7 @@ Setting up this project locally:
 
 
 ## Live Demo
-
+[LiveDemo](https://emiliazm.github.io/metrics-webapp/)
 
 ## Prerequisites
 
@@ -82,3 +83,4 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+Original design idea by Nelson Sakwa in Behance.
