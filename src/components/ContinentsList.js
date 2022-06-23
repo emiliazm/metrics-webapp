@@ -2,7 +2,7 @@ import { useSelector } from 'react-redux';
 import { useEffect, useState } from 'react';
 import Continent from './Continent';
 import NavContinents from './NavContinents';
-import './continents/Continent.css';
+import './Continent.css';
 
 function ContinentsList() {
   const continents = useSelector((state) => state.continents);
