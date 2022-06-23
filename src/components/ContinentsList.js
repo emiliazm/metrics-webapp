@@ -23,7 +23,7 @@ function ContinentsList() {
   return (
     <>
       <NavContinents />
-      <div>
+      <div className="input-container">
         <input
           type="text"
           placeholder="Search by continent here"

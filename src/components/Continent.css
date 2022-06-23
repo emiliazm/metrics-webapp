@@ -33,13 +33,18 @@ a {
   right: 0.3rem;
 }
 
-input {
+.input-container {
+  display: flex;
   width: 100vw;
+}
+
+input {
+  width: 96vw;
   height: 8vh;
   background-color: rgb(254, 83, 149);
   border: 1px solid rgb(208, 67, 120);
   color: white;
-  padding: 0 10px;
+  padding: 0 2vw;
 }
 
 input::placeholder {
