@@ -12,23 +12,46 @@ Object {
           <nav
             class="nav-container"
           >
-            <h1>
-              Covid Cases by Continets
-            </h1>
-            <div
-              class="icons-container"
+            <ul
+              class="ul-cont"
             >
-              <i
-                class="material-symbols-outlined"
+              <li>
+                <a
+                  class="back"
+                  href="#/"
+                >
+                  <i
+                    class="material-symbols-outlined"
+                  >
+                    arrow_back_ios
+                  </i>
+                  <p
+                    class="control-font"
+                  >
+                    2022
+                  </p>
+                </a>
+              </li>
+              <li
+                class="title"
               >
-                mic
-              </i>
-              <i
-                class="material-symbols-outlined"
+                Covid Cases by Continets
+              </li>
+              <div
+                class="icons-container"
               >
-                settings
-              </i>
-            </div>
+                <i
+                  class="material-symbols-outlined"
+                >
+                  mic
+                </i>
+                <i
+                  class="material-symbols-outlined"
+                >
+                  settings
+                </i>
+              </div>
+            </ul>
           </nav>
           <div
             class="map"
@@ -64,10 +87,14 @@ Object {
             <a
               href="#/South America"
             >
-              <h2>
+              <h2
+                class="upper"
+              >
                 South America
               </h2>
-              <p>
+              <p
+                class="cases-country"
+              >
                 59063198
               </p>
             </a>
@@ -84,23 +111,46 @@ Object {
         <nav
           class="nav-container"
         >
-          <h1>
-            Covid Cases by Continets
-          </h1>
-          <div
-            class="icons-container"
+          <ul
+            class="ul-cont"
           >
-            <i
-              class="material-symbols-outlined"
+            <li>
+              <a
+                class="back"
+                href="#/"
+              >
+                <i
+                  class="material-symbols-outlined"
+                >
+                  arrow_back_ios
+                </i>
+                <p
+                  class="control-font"
+                >
+                  2022
+                </p>
+              </a>
+            </li>
+            <li
+              class="title"
             >
-              mic
-            </i>
-            <i
-              class="material-symbols-outlined"
+              Covid Cases by Continets
+            </li>
+            <div
+              class="icons-container"
             >
-              settings
-            </i>
-          </div>
+              <i
+                class="material-symbols-outlined"
+              >
+                mic
+              </i>
+              <i
+                class="material-symbols-outlined"
+              >
+                settings
+              </i>
+            </div>
+          </ul>
         </nav>
         <div
           class="map"
@@ -136,10 +186,14 @@ Object {
           <a
             href="#/South America"
           >
-            <h2>
+            <h2
+              class="upper"
+            >
               South America
             </h2>
-            <p>
+            <p
+              class="cases-country"
+            >
               59063198
             </p>
           </a>
@@ -213,23 +267,46 @@ Object {
           <nav
             class="nav-container"
           >
-            <h1>
-              Covid Cases by Continets
-            </h1>
-            <div
-              class="icons-container"
+            <ul
+              class="ul-cont"
             >
-              <i
-                class="material-symbols-outlined"
+              <li>
+                <a
+                  class="back"
+                  href="#/"
+                >
+                  <i
+                    class="material-symbols-outlined"
+                  >
+                    arrow_back_ios
+                  </i>
+                  <p
+                    class="control-font"
+                  >
+                    2022
+                  </p>
+                </a>
+              </li>
+              <li
+                class="title"
               >
-                mic
-              </i>
-              <i
-                class="material-symbols-outlined"
+                Covid Cases by Continets
+              </li>
+              <div
+                class="icons-container"
               >
-                settings
-              </i>
-            </div>
+                <i
+                  class="material-symbols-outlined"
+                >
+                  mic
+                </i>
+                <i
+                  class="material-symbols-outlined"
+                >
+                  settings
+                </i>
+              </div>
+            </ul>
           </nav>
           <div
             class="map"
@@ -265,10 +342,14 @@ Object {
             <a
               href="#/South America"
             >
-              <h2>
+              <h2
+                class="upper"
+              >
                 South America
               </h2>
-              <p>
+              <p
+                class="cases-country"
+              >
                 59063198
               </p>
             </a>
@@ -285,23 +366,46 @@ Object {
         <nav
           class="nav-container"
         >
-          <h1>
-            Covid Cases by Continets
-          </h1>
-          <div
-            class="icons-container"
+          <ul
+            class="ul-cont"
           >
-            <i
-              class="material-symbols-outlined"
+            <li>
+              <a
+                class="back"
+                href="#/"
+              >
+                <i
+                  class="material-symbols-outlined"
+                >
+                  arrow_back_ios
+                </i>
+                <p
+                  class="control-font"
+                >
+                  2022
+                </p>
+              </a>
+            </li>
+            <li
+              class="title"
             >
-              mic
-            </i>
-            <i
-              class="material-symbols-outlined"
+              Covid Cases by Continets
+            </li>
+            <div
+              class="icons-container"
             >
-              settings
-            </i>
-          </div>
+              <i
+                class="material-symbols-outlined"
+              >
+                mic
+              </i>
+              <i
+                class="material-symbols-outlined"
+              >
+                settings
+              </i>
+            </div>
+          </ul>
         </nav>
         <div
           class="map"
@@ -337,10 +441,14 @@ Object {
           <a
             href="#/South America"
           >
-            <h2>
+            <h2
+              class="upper"
+            >
               South America
             </h2>
-            <p>
+            <p
+              class="cases-country"
+            >
               59063198
             </p>
           </a>
