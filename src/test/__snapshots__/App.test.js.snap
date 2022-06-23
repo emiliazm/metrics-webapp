@@ -85,6 +85,7 @@ Object {
               </i>
             </div>
             <a
+              class="continent-box"
               href="#/South America"
             >
               <h2
@@ -184,6 +185,7 @@ Object {
             </i>
           </div>
           <a
+            class="continent-box"
             href="#/South America"
           >
             <h2
@@ -340,6 +342,7 @@ Object {
               </i>
             </div>
             <a
+              class="continent-box"
               href="#/South America"
             >
               <h2
@@ -439,6 +442,7 @@ Object {
             </i>
           </div>
           <a
+            class="continent-box"
             href="#/South America"
           >
             <h2

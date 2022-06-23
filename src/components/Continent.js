@@ -13,7 +13,7 @@ const Continent = (props) => {
       <div>
         <i className="circle-arrow material-symbols-outlined">arrow_circle_right</i>
       </div>
-      <Link to={`/${continentName}`}>
+      <Link to={`/${continentName}`} className="continent-box">
         <h2 className="upper">{continentName}</h2>
         <p className="cases-country">{cases}</p>
       </Link>

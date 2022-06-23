@@ -17,6 +17,10 @@
   position: relative;
 }
 
+.continent-box {
+  margin: 0 1rem;
+}
+
 .continents-ul li { background: rgb(254, 83, 149); }
 .continents-ul li:nth-child(4n + 2) { background: rgb(208, 67, 120); }
 .continents-ul li:nth-child(4n + 3) { background: rgb(208, 67, 120); }
