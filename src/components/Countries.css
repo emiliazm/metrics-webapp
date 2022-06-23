@@ -23,11 +23,15 @@
 }
 
 .cases-country {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .arrow {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+
+.upper-country {
+  text-transform: uppercase;
 }

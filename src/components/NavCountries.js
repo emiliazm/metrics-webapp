@@ -15,7 +15,7 @@ function NavCountries() {
               <p>Back</p>
             </Link>
           </li>
-          <li>Cases by Countries</li>
+          <li className="title">Cases by Countries</li>
           <div className="icons">
             <i className="material-symbols-outlined">mic</i>
             <i className="material-symbols-outlined">settings</i>
@@ -23,7 +23,7 @@ function NavCountries() {
         </ul>
       </nav>
       <div className="continent-name">
-        <h2>{continent}</h2>
+        <h2 className="upper-country">{continent}</h2>
         <p>{cases}</p>
       </div>
     </div>
