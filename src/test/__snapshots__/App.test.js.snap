@@ -40,7 +40,9 @@ Object {
             />
           </div>
         </div>
-        <div>
+        <div
+          class="input-container"
+        >
           <input
             placeholder="Search by continent here"
             type="text"
@@ -110,7 +112,9 @@ Object {
           />
         </div>
       </div>
-      <div>
+      <div
+        class="input-container"
+      >
         <input
           placeholder="Search by continent here"
           type="text"
@@ -237,7 +241,9 @@ Object {
             />
           </div>
         </div>
-        <div>
+        <div
+          class="input-container"
+        >
           <input
             placeholder="Search by continent here"
             type="text"
@@ -307,7 +313,9 @@ Object {
           />
         </div>
       </div>
-      <div>
+      <div
+        class="input-container"
+      >
         <input
           placeholder="Search by continent here"
           type="text"
