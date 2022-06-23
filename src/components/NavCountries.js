@@ -10,8 +10,9 @@ function NavCountries() {
       <nav className="container-countries">
         <ul className="ul-container">
           <li>
-            <Link to="/">
+            <Link to="/" className="back">
               <i className="material-symbols-outlined">arrow_back_ios</i>
+              <p>Back</p>
             </Link>
           </li>
           <li>Cases by Countries</li>
