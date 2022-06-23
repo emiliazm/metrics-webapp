@@ -18,9 +18,8 @@
 }
 
 .continents-ul li { background: rgb(254, 83, 149); }
-.continents-ul li:nth-child(2) { background: rgb(208, 67, 120); }
-.continents-ul li:nth-child(3) { background: rgb(208, 67, 120); }
-.continents-ul li:nth-child(6) { background: rgb(208, 67, 120); }
+.continents-ul li:nth-child(4n + 2) { background: rgb(208, 67, 120); }
+.continents-ul li:nth-child(4n + 3) { background: rgb(208, 67, 120); }
 
 a {
   text-decoration: none;
@@ -32,4 +31,17 @@ a {
   position: absolute;
   top: 0.3rem;
   right: 0.3rem;
+}
+
+input {
+  width: 100vw;
+  height: 8vh;
+  background-color: rgb(254, 83, 149);
+  border: 1px solid rgb(208, 67, 120);
+  color: white;
+  padding: 0 10px;
+}
+
+input::placeholder {
+  color: white;
 }
