@@ -79,8 +79,8 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse README template.
+- Original design idea by [Nelson Sakwa](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) in Behance.
 
 ## 📝 License
 
 - This project is [MIT](./MIT.md) licensed.
-- Original design idea by [Nelson Sakwa](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) in Behance.
