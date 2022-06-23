@@ -1,0 +1,49 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6vh;
+  color: white;
+  font-size: 1rem;
+  font-weight: 100;
+  background-color: rgb(254, 83, 149);
+  padding: 0.5rem 1.5rem;
+  margin: 0;
+}
+
+.ul-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 100%;
+}
+
+.back {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: bold;
+}
+
+.icons-container {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.material-symbols-outlined {
+  font-size: 1.2rem;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(208, 67, 120);
+  height: 30vh;
+}
+
+.map img {
+  width: 90vw;
+  height: 25vh;
+}

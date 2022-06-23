@@ -1,0 +1,37 @@
+.countries-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.country-li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  height: 10vh;
+  font-size: 0.7rem;
+  padding: 0 1rem;
+}
+
+.countries-container li { background: rgb(254, 83, 149); }
+.countries-container li:nth-child(odd) { background: rgb(208, 67, 120); }
+
+.flag {
+  display: flex;
+  gap: 1rem;
+}
+
+.cases-country {
+  font-size: 1rem;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.upper-country {
+  text-transform: uppercase;
+}
